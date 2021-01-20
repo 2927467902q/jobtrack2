@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>查看详情</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../../../lib/layui-v2.5.5/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../../css/public.css" media="all">
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+   .layui-p{
+   	        padding:9px 10px;
+            width:200px;
+            font-weight:400;
+            line-height:20px;
+            text-align:center;
+   }    
+    </style>
+</head>
+<body>
+<div class="layui-form layuimini-form">
+    <div class="layui-form-item" >
+        <label class="layui-form-label ">班号：</label>
+        <div class="layui-input-block">
+             <p class="layui-p">1001</p>
+        </div>
+    </div>  
+    <div class="layui-form-item"  >
+        <label class="layui-form-label ">学号：</label>
+        <div class="layui-input-block">
+            <p class="layui-p">100110</p>
+        </div>
+    </div>
+    <div class="layui-form-item"  >
+        <label class="layui-form-label ">姓名：</label>
+        <div class="layui-input-block">
+            <p class="layui-p">李雷</p>
+        </div>
+    </div>
+    <div class="layui-form-item"  >
+        <label class="layui-form-label ">性别：</label>
+        <div class="layui-input-block">
+            <p class="layui-p">男</p>
+        </div>
+    </div>
+    <div class="layui-form-item"  >
+        <label class="layui-form-label ">出生日期：</label>
+        <div class="layui-input-block">
+           <p class="layui-p">1999-11-02</p>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label ">籍贯：</label>
+        <div class="layui-input-inline">
+            <p class="layui-p">山西省太原市尖草坪区</p>
+        </div>        
+   </div>
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label ">QQ：</label>
+        <div class="layui-input-block">
+            <p class="layui-p ">123456789</p>
+        </div>
+    </div>      
+    <div class="layui-form-item layui-form-text"  >
+        <label class="layui-form-label ">微信号：</label>
+        <div class="layui-input-block">
+            <p class="layui-p ">li245368</p>
+        </div>
+    </div> 
+    <div class="layui-form-item layui-form-text"  >
+        <label class="layui-form-label ">联系方式：</label>
+        <div class="layui-input-block">
+            <p class="layui-p">13526459852</p>
+        </div>
+    </div> 
+    <div class="layui-form-item layui-form-text"  >
+        <label class="layui-form-label ">是否就业：</label>
+        <div class="layui-input-block">
+            <p class="layui-p">是</p>
+        </div>
+    </div> 
+    <div class="layui-form-item layui-form-text"  >
+        <label class="layui-form-label ">备注：</label>
+        <div class="layui-input-block">
+            <p class="layui-p">无</p>
+        </div>
+    </div> 
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn layui-btn-normal" lay-submit lay-filter="saveBtn">确认保存</button>
+        </div>
+    </div>
+</div>
+<script src="../../../lib/layui-v2.5.5/layui.js" charset="utf-8"></script>
+<script>
+    layui.use(['form','table'], function () {
+        var form = layui.form,
+            layer = layui.layer,
+            laydate = layui.laydate,
+            $ = layui.$;
+        //监听提交
+        form.on('submit(saveBtn)', function (data) {
+            var index = layer.alert(JSON.stringify(data.field), {
+                title: '最终的提交信息'
+            }, function () {
+
+                // 关闭弹出层
+                layer.close(index);
+
+                var iframeIndex = parent.layer.getFrameIndex(window.name);
+                parent.layer.close(iframeIndex);
+
+            });
+
+            return false;
+        });
+
+    });
+</script>
+</body>
+</html>
+
