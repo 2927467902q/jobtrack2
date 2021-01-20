@@ -1,0 +1,39 @@
+
+{
+  "code": 0,
+  "msg": "",
+  "count": 100,
+  "data": [
+    {
+      "id": 1,
+      "majorname": "网络工程",
+      "createtime": "2001-12-12",
+      "remark": "无"
+    }, {
+      "id": 2,
+      "majorname": "网络工程",
+      "createtime": "2001-12-12",
+      "remark": "无"
+    }, {
+      "id": 3,
+      "majorname": "网络工程",
+      "createtime": "2001-12-12",
+      "remark": "无"
+    }, {
+      "id": 4,
+      "majorname": "网络工程",
+      "createtime": "2001-12-12",
+      "remark": "无"
+    }, {
+      "id": 5,
+      "majorname": "网络工程",
+      "createtime": "2001-12-12",
+      "remark": "无"
+    }, {
+      "id": 6,
+      "majorname": "网络工程",
+      "createtime": "2001-12-12",
+      "remark": "无"
+    }
+  ]
+}

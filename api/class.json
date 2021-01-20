@@ -1,0 +1,63 @@
+
+{
+  "code": 0,
+  "msg": "",
+  "count": 100,
+  "data": [
+    {
+      "zizeeng": 1,
+      "majorName": "物联网工程",
+      "cno": "1001",
+      "period":"2017",
+      "joinDate":"2017-11-04",
+      "num":"49",
+      "classTeacher":"张三",
+      "counsellor":"李四"
+    }, {
+      "zizeeng": 1,
+      "majorName": "物联网工程",
+      "cno": "1001",
+      "period":"2017",
+      "joinDate":"2017-11-04",
+      "num":"49",
+      "classTeacher":"张三",
+      "counsellor":"李四"
+    }, {
+      "zizeeng": 1,
+      "majorName": "物联网工程",
+      "cno": "1001",
+      "period":"2017",
+      "joinDate":"2017-11-04",
+      "num":"49",
+      "classTeacher":"张三",
+      "counsellor":"李四"
+    }, {
+      "zizeeng": 1,
+      "majorName": "物联网工程",
+      "cno": "1001",
+      "period":"2017",
+      "joinDate":"2017-11-04",
+      "num":"49",
+      "classTeacher":"张三",
+      "counsellor":"李四"
+    }, {
+      "zizeeng": 1,
+      "majorName": "物联网工程",
+      "cno": "1001",
+      "period":"2017",
+      "joinDate":"2017-11-04",
+      "num":"49",
+      "classTeacher":"张三",
+      "counsellor":"李四"
+    }, {
+      "zizeeng": 1,
+      "majorName": "物联网工程",
+      "cno": "1001",
+      "period":"2017",
+      "joinDate":"2017-11-04",
+      "num":"49",
+      "classTeacher":"张三",
+      "counsellor":"李四"
+    }
+  ]
+}

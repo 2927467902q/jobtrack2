@@ -1,0 +1,62 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 100,
+  "data": [
+    {
+      "zizeeng": 1,
+      "cname": "北京柯蓝科技有限公司",
+      "city": "北京",
+      "trade":"计算机金融",
+      "leader":"刘海海",
+      "telephone":"13566589552",
+      "status":"合作中",
+      "job":"Java开发"
+    }, {
+      "zizeeng": 1,
+      "cname": "北京柯蓝科技有限公司",
+      "city": "北京",
+      "trade":"计算机金融",
+      "leader":"刘海海",
+      "telephone":"13566589552",
+      "status":"合作中",
+      "job":"Java开发"
+    }, {
+      "zizeeng": 1,
+      "cname": "北京柯蓝科技有限公司",
+      "city": "北京",
+      "trade":"计算机金融",
+      "leader":"刘海海",
+      "telephone":"13566589552",
+      "status":"合作中",
+      "job":"Java开发"
+    }, {
+      "zizeeng": 1,
+      "cname": "北京柯蓝科技有限公司",
+      "city": "北京",
+      "trade":"计算机金融",
+      "leader":"刘海海",
+      "telephone":"13566589552",
+      "status":"合作中",
+      "job":"Java开发"
+    }, {
+      "zizeeng": 1,
+      "cname": "北京柯蓝科技有限公司",
+      "city": "北京",
+      "trade":"计算机金融",
+      "leader":"刘海海",
+      "telephone":"13566589552",
+      "status":"合作中",
+      "job":"Java开发"
+    }, {
+      "zizeeng": 1,
+      "cname": "北京柯蓝科技有限公司",
+      "city": "北京",
+      "trade":"计算机金融",
+      "leader":"刘海海",
+      "telephone":"13566589552",
+      "status":"合作中",
+      "job":"Java开发"
+    }
+  ]
+}
